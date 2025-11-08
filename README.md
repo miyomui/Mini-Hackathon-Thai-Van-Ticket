@@ -29,7 +29,7 @@
 ![Executive Summary](image/1_summary.jpg)
 
 #### 2. Sales & Revenue Deep Dive (เจาะลึกยอดขาย)
-วิเคราะห์เจาะลึกว่ารายได้มาจากสินค้าตัวไหน และช่วงเวลาใดขายดีที่สุด
+วิเคราะห์เจาะลึกว่ารายได้มาจากสถานะไหน และช่วงเวลาใดขายดีที่สุด
 ![Sales Analysis](image/2_sales.jpg)
 
 #### 3. Operational Health & Leaks (จุดรั่วไหลของรายได้)
@@ -69,7 +69,7 @@ A high-level view of key KPIs such as Confirmed Revenue, Tickets Sold, and Failu
 ![Executive Summary](image/1_summary.jpg)
 
 #### 2. Sales & Revenue Deep Dive
-In-depth analysis of revenue sources, identifying top-selling products and peak sales periods.
+In-depth analysis of revenue status, identifying top-selling products and peak sales periods.
 ![Sales Analysis](image/2_sales.jpg)
 
 #### 3. Operational Health & Leaks
