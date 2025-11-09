@@ -10,7 +10,7 @@
 ### ภาพรวมโปรเจกต์
 โปรเจกต์นี้เป็นการวิเคราะห์ข้อมูลการจองตั๋วรถตู้ (Thai Van Ticket) จากกิจกรรม Mini Hackathon เพื่อค้นหาข้อมูลเชิงลึกทางธุรกิจ (Business Insights) และนำเสนอผ่าน **Interactive Dashboard** ด้วย Power BI วัตถุประสงค์คือเพื่อให้ผู้บริหารสามารถติดตามภาพรวมธุรกิจ วิเคราะห์ยอดขาย ค้นหาจุดรั่วไหลของรายได้ และเข้าใจพฤติกรรมลูกค้าได้ดียิ่งขึ้น เป็นการแข่งขันภายในมหาวิทยาลับกรุงเทพ
 * **ระยะเวลาดำเนินโปรเจกต์:** 1 พฤศจิกายน 2568 - 9 พฤศจิกายน 2568
-* [**ราละเอียดและข้อมูลเพิ่มเติมเกี่ยวกับโปรเจกต์**](https://www.canva.com/design/DAG3WLG0FnY/i0SQTbZA6AOtN2kT_vD8uw/edit?utm_content=DAG3WLG0FnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [**รายละเอียดและข้อมูลเพิ่มเติมเกี่ยวกับโปรเจกต์**](https://www.canva.com/design/DAG3WLG0FnY/i0SQTbZA6AOtN2kT_vD8uw/edit?utm_content=DAG3WLG0FnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### เครื่องมือที่ใช้
 * **Python (Jupyter Notebook):** สำหรับการเตรียมข้อมูล (Data Cleaning) และวิเคราะห์เบื้องต้น
