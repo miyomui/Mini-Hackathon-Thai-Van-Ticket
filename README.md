@@ -51,6 +51,8 @@
 
 ### Project Overview
 This project analyzes van ticket booking data (Thai Van Ticket) from a Mini Hackathon event. The goal is to uncover business insights and present them through an **Interactive Dashboard** using Power BI, enabling executives to track business performance, analyze sales, identify revenue leaks, and understand customer behavior.
+* **Project Duration:** November 1, 2025 - November 9, 2025
+* [**Project Details and Additional Information**](https://www.canva.com/design/DAG3WLG0FnY/i0SQTbZA6AOtN2kT_vD8uw/edit?utm_content=DAG3WLG0FnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Tools Used
 * **Python (Jupyter Notebook):** For data preparation (cleaning) and initial analysis.
