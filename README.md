@@ -23,7 +23,6 @@
 * `images/`: โฟลเดอร์เก็บรูปภาพ Screenshot ของ Dashboard
 
 ```text
-.
 ├── dashboard/
 │   └── Mini Hackathon Thai Van Ticket.pbix
 ├── data/
@@ -36,6 +35,7 @@
 ├── notebooks/
 │   └── Mini Hackathon Thai Van Ticket.ipynb
 └── README.md
+```
 
 ### ขั้นตอนการทำงาน 
 1. **การทำความเข้าใจข้อมูลและกำหนด KPI (Data Understanding)**
