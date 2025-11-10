@@ -90,9 +90,21 @@ This project analyzes van ticket booking data (Thai Van Ticket) from a Mini Hack
 * **Power BI:** For Dashboard creation and Data Visualization.
 
 ### File Structure
-* `Mini Hackathon Thai Van Ticket.ipynb`: Notebook file demonstrating Python/SQL analysis steps.
-* `Mini Hackathon Thai Van Ticket.pbix`: The complete Power BI Dashboard file.
-* `images/`: Folder containing dashboard screenshots.
+```text
+.
+├── 📊 dashboard/
+│   └── Mini Hackathon Thai Van Ticket.pbix
+├── 💾 data/
+│   └── aie222_db_thaivanticket_hackathon_2025.csv
+├── 🖼️ image/
+│   ├── 1_summary.jpg
+│   ├── 2_sales.jpg
+│   ├── 3_operational.jpg
+│   └── 4_customer.jpg
+├── 📓 notebooks/
+│   └── Mini Hackathon Thai Van Ticket.ipynb
+└── 📝 README.md
+```
 
 ### Methodology / Workflow
 
