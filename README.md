@@ -18,23 +18,20 @@
 * **Power BI:** สำหรับการสร้าง Dashboard และ Data Visualization
 
 ### โครงสร้างไฟล์
-* `Mini Hackathon Thai Van Ticket.ipynb`: ไฟล์ Notebook แสดงขั้นตอนการวิเคราะห์ด้วย Python/SQL
-* `Mini Hackathon Thai Van Ticket.pbix`: ไฟล์งาน Dashboard Power BI ฉบับสมบูรณ์
-* `images/`: โฟลเดอร์เก็บรูปภาพ Screenshot ของ Dashboard
-
 ```text
-├── dashboard/
+.
+├── 📊 dashboard/
 │   └── Mini Hackathon Thai Van Ticket.pbix
-├── data/
+├── 💾 data/
 │   └── aie222_db_thaivanticket_hackathon_2025.csv
-├── image/
+├── 🖼️ image/
 │   ├── 1_summary.jpg
 │   ├── 2_sales.jpg
 │   ├── 3_operational.jpg
 │   └── 4_customer.jpg
-├── notebooks/
+├── 📓 notebooks/
 │   └── Mini Hackathon Thai Van Ticket.ipynb
-└── README.md
+└── 📝 README.md
 ```
 
 ### ขั้นตอนการทำงาน 
