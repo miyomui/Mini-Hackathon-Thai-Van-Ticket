@@ -22,6 +22,24 @@
 * `Mini Hackathon Thai Van Ticket.pbix`: ไฟล์งาน Dashboard Power BI ฉบับสมบูรณ์
 * `images/`: โฟลเดอร์เก็บรูปภาพ Screenshot ของ Dashboard
 
+### ขั้นตอนการทำงาน 
+1. **การทำความเข้าใจข้อมูลและกำหนด KPI (Data Understanding)**
+   - รับ Dataset และทำการเชื่อมต่อ Server ตามที่อาจารย์กำหนดผ่าน Colab และ Power BI
+   - สำรวจข้อมูลดิบเพื่อทำความเข้าใจ Business Logic โดยเฉพาะการจำแนกสถานะตั๋วทั้ง 9 ประเภท
+   - จัดกลุ่มสถานะตั๋วเป็นกลุ่ม "รายได้จริง" (`SOLD`, `ONLINESALE`) และกลุ่ม "จุดรั่วไหล" (`BOOK_ATM_2`, `BOOK_CASH`, `BOOK_ATM`, `BOOK_TEL`, `BOOK`, `RESERVE`) เพื่อกำหนดตัวชี้วัด (KPIs) ที่สำคัญทางธุรกิจ
+
+2. **การเตรียมข้อมูลและทดสอบตรรกะ (Data Prep & Logic Testing)**
+   - ใช้ **Python (Pandas)** ในการตรวจสอบคุณภาพข้อมูลเบื้องต้น (Data Profiling)
+   - เขียน **SQL Queries** เพื่อทดสอบตรรกะการคำนวณของ KPI ซับซ้อน เช่น *มูลค่ารายได้ที่อาจสูญเสีย (Potential Lost Revenue)* และ *อัตราการจองทิ้งรายชั่วโมง* ก่อนนำไปสร้างจริงใน BI Tool
+
+3. **การออกแบบโมเดลข้อมูล (Data Modeling)**
+   - ออกแบบ Data Model รูปแบบ **Star Schema** ใน Power BI เพื่อประสิทธิภาพในการประมวลผล
+   - สร้างตารางมิติเวลา **(Master Date Dimension)** ด้วย DAX เพื่อให้สามารถวิเคราะห์ข้อมูลตามช่วงเวลา (Time-intelligence) และกรองข้อมูลข้ามตารางได้อย่างถูกต้องแม่นยำ (รองรับข้อมูลปี 2024-2025)
+
+4. **การพัฒนาแดชบอร์ด (Dashboard Development)**
+   - สร้างสูตร **DAX Measures** ซับซ้อน (เช่น `CALCULATE`, `SUMX`) เพื่อคำนวณ KPI แบบไดนามิกที่เปลี่ยนค่าตามการกรองของผู้ใช้
+   - ออกแบบหน้ารายงาน Interactive 4 หน้า โดยเน้นการเล่าเรื่องด้วยข้อมูล (Data Storytelling) ตั้งแต่ภาพรวมระดับผู้บริหารไปจนถึงรายละเอียดระดับปฏิบัติการ
+
 ---
 
 ### ตัวอย่าง Dashboard
@@ -63,6 +81,24 @@ This project analyzes van ticket booking data (Thai Van Ticket) from a Mini Hack
 * `Mini Hackathon Thai Van Ticket.ipynb`: Notebook file demonstrating Python/SQL analysis steps.
 * `Mini Hackathon Thai Van Ticket.pbix`: The complete Power BI Dashboard file.
 * `images/`: Folder containing dashboard screenshots.
+
+### Methodology / Workflow
+
+1. **Data Understanding & KPI Definition**
+   - Received the dataset and established server connections via Colab and Power BI as provided by the instructor.
+   - Explored raw data to understand business logic, specifically classifying the 9 ticket statuses into "Confirmed Revenue" (`SOLD`, `ONLINESALE`) and "Operational Leaks" (`BOOK_ATM_2`, `BOOK_CASH`, `BOOK_ATM`, `BOOK_TEL`, `BOOK`, `RESERVE`) to define key business KPIs.
+
+2. **Data Preparation & Logic Testing (SQL/Python)**
+   - Utilized **Python (Pandas)** for initial data profiling and quality checks.
+   - Wrote complex **SQL queries** to prototype and validate logic for metrics like *Potential Lost Revenue* and *Hourly Abandonment Rate* before BI implementation.
+
+3. **Data Modeling (Power BI)**
+   - Designed a **Star Schema** data model in Power BI for optimized query performance.
+   - Created a dedicated **Master Date Dimension** table using DAX to enable accurate time-intelligence analysis and unified cross-filtering across all report pages (supporting 2024-2025 data).
+
+4. **Dashboard Development & Visualization**
+   - Developed complex **DAX measures** (e.g., `CALCULATE`, `SUMX`) for dynamic KPI tracking that responds to user interactions.
+   - Designed a 4-page interactive layout focusing on data storytelling, guiding users from a high-level executive overview down to granular operational details.
 
 ---
 
