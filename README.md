@@ -22,8 +22,8 @@
 * `Mini Hackathon Thai Van Ticket.pbix`: ไฟล์งาน Dashboard Power BI ฉบับสมบูรณ์
 * `images/`: โฟลเดอร์เก็บรูปภาพ Screenshot ของ Dashboard
 
-\`\`\`text
-  .
+```text
+.
 ├── dashboard/
 │   └── Mini Hackathon Thai Van Ticket.pbix
 ├── data/
@@ -36,7 +36,6 @@
 ├── notebooks/
 │   └── Mini Hackathon Thai Van Ticket.ipynb
 └── README.md
-\`\`\`
 
 ### ขั้นตอนการทำงาน 
 1. **การทำความเข้าใจข้อมูลและกำหนด KPI (Data Understanding)**
